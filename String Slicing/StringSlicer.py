@@ -12,3 +12,12 @@ last_name = name[7:] #short cut way of writing the above line
 
 print(first_name)
 print(last_name)
+
+
+#RandomName = name[0:15:2]
+RandomName = name[::2] #short cut way of writing the above line
+print(RandomName)
+
+reversed_name = name[::-1]
+
+print(reversed_name)
