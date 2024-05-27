@@ -16,4 +16,15 @@ captials = {'Ireland': 'Dublin',
 #print(captials.keys())
 
 #printing just the values
-print(captials.values())
+#print(captials.values())
+
+#printing the keys and the values
+#print(captials.items())
+
+#my attempt at print all the values using the for loop
+#for x in captials:
+ #   print(x)
+    
+#the tutorials version
+for key, value in captials.items():
+    print(key, value)
