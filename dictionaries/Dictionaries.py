@@ -6,4 +6,8 @@ captials = {'Ireland': 'Dublin',
             'India': 'Dehli',
             'Germany': 'Berlin',
             'Russia': 'Moscow'}
+#Use the get method for a safer choice when using dictionaries
+#print(captials['Russia'])
 
+#Using the get method
+print(captials.get('Brazil'))
