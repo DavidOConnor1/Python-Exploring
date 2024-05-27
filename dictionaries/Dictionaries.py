@@ -35,7 +35,7 @@ captials.pop('Russia')
 #print(captials.items())
 
 #my attempt at print all the values using the for loop
-#for x in captials:
+#for x in captials.items():
  #   print(x)
     
 #the tutorials version
