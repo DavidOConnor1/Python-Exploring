@@ -6,6 +6,19 @@ captials = {'Ireland': 'Dublin',
             'India': 'Dehli',
             'Germany': 'Berlin',
             'Russia': 'Moscow'}
+
+#adding a new item to the dictionary
+captials.update({'Brazil': 'Rio'})
+
+#can update certain values in the dictonary is well
+captials.update({'USA': 'Florida'})
+
+#Can use the pop method within the dictonaries. Removes item where the key value is 
+captials.pop('Russia')
+
+#the clear method empties the entire dictonary
+captials.clear()
+
 #Use the get method for a safer choice when using dictionaries
 #print(captials['Russia'])
 
