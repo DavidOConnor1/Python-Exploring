@@ -7,7 +7,7 @@ name = "monkey d. luffy@"
     
 first_name = name[:6].upper()
 last_name = name[7:]
-last_character = name
+last_character = name[-1] # will take the last character within that string. it works backwards
 
 #I was trying to captialize both indexes that I have had listed but it only captializes the first index
 if(last_name[0].islower() and last_name[3].islower()):
@@ -15,5 +15,6 @@ if(last_name[0].islower() and last_name[3].islower()):
 
 #print(name)
 #print(first_name)
-print(last_name)
+#print(last_name)
+print(last_character)
 
