@@ -10,4 +10,10 @@ captials = {'Ireland': 'Dublin',
 #print(captials['Russia'])
 
 #Using the get method
-print(captials.get('Brazil'))
+#print(captials.get('Brazil'))
+
+#printing just the keys
+#print(captials.keys())
+
+#printing just the values
+print(captials.values())
