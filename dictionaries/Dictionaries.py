@@ -17,7 +17,7 @@ captials.update({'USA': 'Florida'})
 captials.pop('Russia')
 
 #the clear method empties the entire dictonary
-captials.clear()
+#captials.clear()
 
 #Use the get method for a safer choice when using dictionaries
 #print(captials['Russia'])
