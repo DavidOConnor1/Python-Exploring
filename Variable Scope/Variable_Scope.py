@@ -10,3 +10,14 @@ def display_name():
     
 display_name();
 print(name)
+
+
+#   Python follows the LEGB rule
+
+# L = Local (Uses any local variables first)
+
+# E = Enclosing 
+
+# G = Global
+
+# B = Built-in 
